@@ -1,0 +1,15 @@
+app:
+  name: anurag-saran-poi-map-app
+  namespace: anurag-saran
+  cluster: .apps.rosa-x4jc7.l07n.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/rhdh-gh/anurag-saran-frontend
+  org: rhdh-gh
+  name: anurag-saran-frontend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: anurag-saran/poi-map-app
+  tag: latest
